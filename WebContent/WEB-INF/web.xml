@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>HibernateServletSqlSvr</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <error-page>
+  	<exception-type>java.lang.RuntimeException</exception-type>
+  	<location>/OriginalUncaughtException</location>
+  	<!-- <error-code>404</error-code>
+  	<location>/WEB-INF/error.html</location>-->
+  </error-page>
+  <error-page>
+    <error-code>404</error-code>
+  	<location>/404.jsp</location>
+  </error-page>
+  <!-- servlet-mappingとservletは/newで/new.jspを表示させるためのマッピング -->
+  <!-- servlet-mappingは正しく記入しないとTomcatのエラーが発生するので注意 -->
+  <servlet-mapping>
+	<servlet-name>new</servlet-name>
+	<url-pattern>/new</url-pattern>
+  </servlet-mapping>
+  <servlet>
+	<servlet-name>new</servlet-name>
+	<jsp-file>/new.jsp</jsp-file>
+  </servlet>
+</web-app>

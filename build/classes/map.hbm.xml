@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="web.sample.ShohinMap" table="ShohinDataWeb" lazy="false">
+		<id name="NumId" type="int" unsaved-value="null">
+			<column name="NumId" sql-type="int" not-null="true" />
+			<!-- <meta attribute="field-description">
+				@hibernate.id
+				generator-class="identity"
+				type="int"
+				column="NumId"
+			</meta> -->
+			<generator class="identity" />
+		</id>
+		<property name="ShohinCode" type="short" column="ShohinNum" />
+		<property name="ShohinName" type="string" column="ShohinName" />
+		<property name="EditDate" type="big_decimal" precision="8" scale="0" column="EditDate" />
+		<property name="EditTime" type="big_decimal" precision="6" scale="0" column="EditTime" />
+		<property name="Note" type="string" column="Note" />
+	</class>
+</hibernate-mapping>
