@@ -7,10 +7,10 @@ ___
 デベロッパーSDK：Adopt OpenJDK 11.0.8
 サーブレットコンテナ：Apache Tomcat 9.0.38
 テンプレートエンジン：なし（JSP）
-データベース：Microsoft SQLServer 2019 Express CU7  
+データベース：Microsoft SQLServer 2019 Express CU8  
 -データベース管理ツール：Microsoft SQL Server Management Studio 18.6  
 データベース接続：Microsoft JDBC Driver 8.4.1 for SQL Server  
-O/R マッパー フレームワーク：Hibernate ORM 5.4.21 Final
+O/R マッパー フレームワーク：Hibernate ORM 5.4.22 Final
 CSSテンプレート：Bootstrap 4.5.2
 ```
 
