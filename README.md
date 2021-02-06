@@ -9,7 +9,7 @@ ___
 テンプレートエンジン：なし（JSP）
 データベース：Microsoft SQLServer 2019 Express CU8(21/01/12)  
 -データベース管理ツール：Microsoft SQL Server Management Studio 18.8  
-データベース接続：Microsoft JDBC Driver 8.4.1 for SQL Server  
+データベース接続：Microsoft JDBC Driver 9.2.0 for SQL Server  
 O/R マッパー フレームワーク：Hibernate ORM 5.4.27 Final
 CSSテンプレート：Bootstrap 4.6.0
 ```
