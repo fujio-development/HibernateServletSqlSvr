@@ -5,12 +5,12 @@ ___
 開発環境：Eclipse 2020-12 R(4.18.0) Pleiades
 言語：Java 11
 デベロッパーSDK：Adopt OpenJDK 11.0.10 + 9
-サーブレットコンテナ：Apache Tomcat 9.0.43
+サーブレットコンテナ：Apache Tomcat 9.0.44
 テンプレートエンジン：なし（JSP）
 データベース：Microsoft SQLServer 2019 Express CU9  
 -データベース管理ツール：Microsoft SQL Server Management Studio 18.8  
-データベース接続：Microsoft JDBC Driver 9.2.0 for SQL Server  
-O/R マッパー フレームワーク：Hibernate ORM 5.4.28 Final
+データベース接続：Microsoft JDBC Driver 9.2.1 for SQL Server  
+O/R マッパー フレームワーク：Hibernate ORM 5.4.29 Final
 CSSテンプレート：Bootstrap 4.6.0
 ```
 
