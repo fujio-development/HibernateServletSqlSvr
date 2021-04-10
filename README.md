@@ -5,9 +5,9 @@ ___
 開発環境：Eclipse 2021-03 R(4.19.0) Pleiades
 言語：Java 11
 デベロッパーSDK：Adopt OpenJDK 11.0.10 + 9
-サーブレットコンテナ：Apache Tomcat 9.0.44
+サーブレットコンテナ：Apache Tomcat 9.0.45
 テンプレートエンジン：なし（JSP）
-データベース：Microsoft SQLServer 2019 Express CU9  
+データベース：Microsoft SQLServer 2019 Express CU10  
 -データベース管理ツール：Microsoft SQL Server Management Studio 18.8  
 データベース接続：Microsoft JDBC Driver 9.2.1 for SQL Server  
 O/R マッパー フレームワーク：Hibernate ORM 5.4.30 Final
