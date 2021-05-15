@@ -4,14 +4,14 @@ ___
 ```
 開発環境：Eclipse 2021-03 R(4.19.0) Pleiades
 言語：Java 11
-デベロッパーSDK：Adopt OpenJDK 11.0.10 + 9
-サーブレットコンテナ：Apache Tomcat 9.0.45
+デベロッパーSDK：Adopt OpenJDK 11.0.11 + 9
+サーブレットコンテナ：Apache Tomcat 9.0.46
 テンプレートエンジン：なし（JSP）
 データベース：Microsoft SQLServer 2019 Express CU10  
--データベース管理ツール：Microsoft SQL Server Management Studio 18.8  
+-データベース管理ツール：Microsoft SQL Server Management Studio 18.9.1  
 データベース接続：Microsoft JDBC Driver 9.2.1 for SQL Server  
-O/R マッパー フレームワーク：Hibernate ORM 5.4.30 Final
-CSSテンプレート：Bootstrap 4.6.0
+O/R マッパー フレームワーク：Hibernate ORM 5.4.31 Final
+CSSテンプレート：Bootstrap 5.0.1
 ```
 
 #### 事前準備  
