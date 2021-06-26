@@ -10,8 +10,8 @@ ___
 データベース：Microsoft SQLServer 2019 Express CU11  
 -データベース管理ツール：Microsoft SQL Server Management Studio 18.9.1  
 データベース接続：Microsoft JDBC Driver 9.2.1 for SQL Server  
-O/R マッパー フレームワーク：Hibernate ORM 5.5.2 Final
-CSSテンプレート：Bootstrap 5.0.1
+O/R マッパー フレームワーク：Hibernate ORM 5.5.3 Final
+CSSテンプレート：Bootstrap 5.0.2
 ```
 
 #### 事前準備  
